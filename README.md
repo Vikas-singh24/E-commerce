@@ -1,3 +1,3 @@
 # E-commerce
 
-Link to Preview - https://earnest-gumdrop-622045.netlify.app/
+Link to Preview - https://shopy-style.netlify.app
