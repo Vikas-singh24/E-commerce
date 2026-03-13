@@ -11,6 +11,7 @@ import Footer from './Components/Footer/Footer'
 import men_banner from './Components/Assets/banner_mens.png'
 import women_banner from './Components/Assets/banner_women.png'
 import kid_banner from './Components/Assets/banner_kids.png'
+import AdminDashboardLayout from './Pages/Admin/AdminDashboardLayout'
 function App() {
   const [count, setCount] = useState(0)
 
@@ -23,6 +24,7 @@ function App() {
         <Route path='/men' element={<ShopCategory banner={men_banner} category="men"/>}/>
         <Route path='/women' element={<ShopCategory banner={women_banner} category="women"/>}/>
         <Route path='/kids' element={<ShopCategory banner={kid_banner} category="kid"/>}/>
+        <Route path='/admin' element={<AdminDashboardLayout/>}/>
         <Route path='product' element={<Product/>}/>
         <Route path='/product/:Id' element={<Product/>}/>
         <Route path='/cart' element={<Cart/>}/>
